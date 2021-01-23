@@ -1,0 +1,10 @@
+language: python
+
+install: skip
+
+script:
+  - /bin/bash ./travis-ci/install-nginx.sh
+
+branches:
+  only:
+  - master
